@@ -6,20 +6,46 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="container">
-		<div id="buttons">
-			<button id="button-rock">
-				Kamień
-			</button>
-			<button id="button-paper">
-				Papier
-			</button>
-			<button id="button-scissors">
-				Nożyce
-			</button>
+	<header class="splash">
+		<h1 class="page-title">
+			Kamień, papier, nożyce
+		</h1>
+		<h3 class="page-subtitle">
+			Zagraj z komputerem!
+		</h3>
+	</header>
+	<section class="instructions">
+		<div class="container">
+			<div class="instructions">
+				Kliknij jeden z przycisków (kamień, papier lub nożyce), aby wybrać swój ruch. Następnie, komputer wylosuje swój ruch,
+				a na ekranie zostanie przedstawiony wynik. Gra będzie skończona po 5 wygranych gracza lub komputera. 
+			</div>
+			<h3 class="good-luck">
+				Powodzenia!
+			</h3>
 		</div>
-		<div id="messages"></div>
-	</div>
+	</section>
+	<section class="game">
+		<div class="container">
+			<div id="buttons">
+				<button id="button-rock">
+					Kamień
+				</button>
+				<button id="button-paper">
+					Papier
+				</button>
+				<button id="button-scissors">
+					Nożyce
+				</button>
+			</div>
+			<div id="messages">
+
+			</div>
+		</div>
+	</section>
+	<footer>
+		&copy; 2019 Sylwia Dras
+	</footer>
 	<script src="js/functions.js"></script>
 	<script src="js/script.js"></script>
 </body>
