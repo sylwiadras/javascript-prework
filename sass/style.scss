@@ -1,0 +1,29 @@
+/* Global */ 
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: 'PT Sans', sans-serif;
+    color: #303952;
+    letter-spacing: 1px;
+}
+
+section {
+    padding: 0 0 48px 0;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.page-title, .good-luck {
+    font-family: 'Oswald', sans-serif;
+}
+
