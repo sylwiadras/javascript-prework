@@ -6,14 +6,15 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-image: url(../images/background.jpeg);
-  background-position: center;
-  height: 100%;
   font-family: 'PT Sans', sans-serif;
   color: #2f3542;
 }
 
 /* Header */
+header {
+  background-image: url(../images/background.jpeg);
+}
+
 .page-title {
   font-family: 'Oswald', sans-serif;
   font-size: 60px;
