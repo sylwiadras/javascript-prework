@@ -1,0 +1,51 @@
+/* Global */
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: 'PT Sans', sans-serif;
+  color: #303952;
+  letter-spacing: 1px;
+}
+
+section {
+  padding: 0 0 48px 0;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.page-title, .good-luck {
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Splash */
+.splash {
+  background-color: #786fa6;
+  min-height: 400px;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.splash-inner {
+  margin: auto;
+}
+
+.page-title {
+  color: #fff;
+  font-size: 60px;
+}
+
+.page-subtitle {
+  color: #fff;
+  font-size: 16px;
+  margin: 24px 0;
+}
+/*# sourceMappingURL=style.css.map */

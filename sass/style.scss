@@ -27,3 +27,26 @@ section {
     font-family: 'Oswald', sans-serif;
 }
 
+/* Splash */ 
+
+.splash {
+    background-color: #786fa6;
+    min-height: 400px;
+    display: flex;
+}
+
+.splash-inner {
+    margin: auto;
+}
+
+.page-title {
+    color: #fff;
+    font-size: 60px;
+    margin: 0;
+}
+
+.page-subtitle {
+    color: #fff;
+    font-size: 16px;
+    margin: 24px 0;
+}
