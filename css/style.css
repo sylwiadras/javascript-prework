@@ -58,5 +58,50 @@ section {
 /* Instructions */
 .good-luck {
   font-weight: 400;
+  font-size: 24px;
+}
+
+/* Game */
+#buttons {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-decoration: none;
+  cursor: pointer;
+  border: 3px solid #786fa6;
+  color: #786fa6;
+  background-color: #fff;
+  font-size: 48px;
+}
+
+#messages {
+  margin: 36px auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+#messages div:first-of-type {
+  border-top: 3px solid #786fa6;
+  padding-top: 10px;
+}
+
+#messages div:last-of-type {
+  border-bottom: 3px solid #786fa6;
+  padding-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */
