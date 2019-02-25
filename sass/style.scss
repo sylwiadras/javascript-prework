@@ -23,7 +23,12 @@ section {
     margin: 0 auto;
 }
 
-.page-title, .good-luck {
+.section-title {
+    font-size: 48px;
+    margin: 0 0 36px 0;
+}
+
+.page-title, .good-luck, .section-title {
     font-family: 'Oswald', sans-serif;
 }
 
@@ -49,4 +54,11 @@ section {
     color: #fff;
     font-size: 16px;
     margin: 24px 0;
+}
+
+/* Instructions */ 
+
+.good-luck {
+    font-weight: 400;
+    font-size: 24px;
 }
