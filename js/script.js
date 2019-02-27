@@ -1,14 +1,8 @@
-var argButtonName, buttonRock, buttonPaper, buttonScissors 
-
-buttonRock = document.getElementById('button-rock');
-buttonPaper = document.getElementById('button-paper');
-buttonScissors = document.getElementById('button-scissors');
-
 function buttonClicked(argButtonName) {
     clearMessages();
     console.log((argButtonName + ' został kliknięty.'));
 
-    var argMoveId, argPlayerMove, argComputerMove, computerMove, randomNumber, playerMove;
+    let argMoveId, argPlayerMove, argComputerMove, computerMove, randomNumber, playerMove;
 
     playerMove = argButtonName;
     console.log(('ruch gracza to: ' + playerMove));
@@ -54,9 +48,14 @@ function buttonClicked(argButtonName) {
             printMessage (('Nie udało się wygrać. :('));
         }
     }
-
     displayResult(playerMove, computerMove);
 }
+
+let buttonRock, buttonPaper, buttonScissors 
+
+buttonRock = document.getElementById('button-rock');
+buttonPaper = document.getElementById('button-paper');
+buttonScissors = document.getElementById('button-scissors');
 
 buttonRock.addEventListener('click', function(){ 
     buttonClicked('kamień'); 
