@@ -49,11 +49,11 @@ function buttonClicked(argButtonName) {
     displayResult(playerMove, computerMove);
 }
 
-let buttonRock, buttonPaper, buttonScissors 
 
-buttonRock = document.getElementById('button-rock');
-buttonPaper = document.getElementById('button-paper');
-buttonScissors = document.getElementById('button-scissors');
+
+const buttonRock = document.getElementById('button-rock');
+const buttonPaper = document.getElementById('button-paper');
+const buttonScissors = document.getElementById('button-scissors');
 
 buttonRock.addEventListener('click', function(){ 
     buttonClicked('kamień'); 
