@@ -1,26 +1,24 @@
 function buttonClicked(argButtonName) {
     clearMessages();
     console.log((argButtonName + ' został kliknięty.'));
-
-    let argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove;
     
-    playerMove = argButtonName;
+    const playerMove = argButtonName;
     console.log(('ruch gracza to: ' + playerMove));
 
     const randomNumber = Math.floor(Math.random() * 3 + 1);
     console.log(('wylosowana liczba to: ' + randomNumber));
-    computerMove = getMoveName(randomNumber);
+    const computerMove = getMoveName(randomNumber);
     console.log(('ruch komputera to: ' + computerMove));
 
     function getMoveName(argMoveId) {
         console.log(('wywołano funkcję getMoveName z argumentem: ' + argMoveId));
-        if (argMoveId == '1') {
+        if (argMoveId === 1) {
             return 'kamień';
         }
-        else if (argMoveId == '2') {
+        else if (argMoveId === 2) {
             return 'papier';
         }
-        else if (argMoveId == '3') {
+        else if (argMoveId === 3) {
             return 'nożyce';
         }
         else {
